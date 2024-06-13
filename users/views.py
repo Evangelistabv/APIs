@@ -50,7 +50,7 @@ class UserLoginView(APIView):
 
             return Response({
                 "message": "Login successful.",
-                "username": user.name,
+                "name": user.name,
                 "email": user.email
             }, status=status.HTTP_200_OK)
             
