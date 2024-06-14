@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'services',
     'tickets',
     'corsheaders',
-    ,
 ]
 
 CORS_ALLOWED_ORIGINS = [
