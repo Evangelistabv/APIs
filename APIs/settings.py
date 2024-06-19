@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:4200/',
+    'https://angular-project-79215.web.app/',
 ]
 
 
